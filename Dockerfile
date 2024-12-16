@@ -11,4 +11,3 @@ COPY styles.css styles.css
 # Expose port 80 for NGINX
 EXPOSE 80
 
-# Default NGINX CMD will serve the files
