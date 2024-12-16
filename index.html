@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Pro | Professional Fitness</title>
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(90deg, #ff7e5f, #feb47b);
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        nav {
+            background: #333;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #feb47b;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 1rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            font-size: 1.5rem;
+            margin: 1rem 0;
+        }
+
+        .card p {
+            font-size: 1rem;
+            margin: 0 1rem 1.5rem;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #feb47b;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gym Pro</h1>
+        <p>Your Professional Fitness Partner</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section class="container">
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200" alt="Cardio Training">
+            <h3>Cardio Training</h3>
+            <p>Boost your stamina and keep your heart healthy with our specialized cardio programs.</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200" alt="Strength Training">
+            <h3>Strength Training</h3>
+            <p>Build your strength and muscle with our state-of-the-art equipment and trainers.</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200" alt="Yoga Classes">
+            <h3>Yoga Classes</h3>
+            <p>Relax your mind and body with expert-led yoga sessions.</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Gym Pro. Designed with passion. <a href="#">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>
